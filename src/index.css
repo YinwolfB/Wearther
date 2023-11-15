@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300;1,600&display=swap');
+
+/**---reset---**/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+body{
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+h1,h2,h3,p,ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
